@@ -1,0 +1,10 @@
+# env files
+pyproject.toml
+.python-version
+
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+lightning_logs/
+.venv/
+build/

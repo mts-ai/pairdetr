@@ -1,0 +1,11 @@
+torch==2.0.0
+torchvision==0.15.1
+torchaudio==2.0.1
+albumentations==1.2.0
+opencv-python
+transformers==4.27.3
+pandas==1.5.3
+ortools==9.6.2534
+pytorch-lightning==1.9.3
+timm==0.6.13
+torchmetrics
