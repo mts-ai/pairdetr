@@ -54,6 +54,8 @@ checkpoint = torch.load(<path to the chk>, map_location="cuda")
 model.load_state_dict(checkpoint, strict=False)
 ```
 <a href=''>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
+
+<a href='https://huggingface.co/MTSAIR/PairDETR'>[<img src="https://huggingface.co/datasets/huggingface/badges/raw/main/model-on-hf-lg-dark.svg">](https://huggingface.co/spaces)</a>
 ## Results
 Comparison between PairDETR method and other methods in the miss matching rate mMr-2 (the lower the better):
 
@@ -63,7 +65,7 @@ Comparison between PairDETR method and other methods in the miss matching rate m
 | **BFJ**   |     42.96     |   37.96  | 48.20       |   67.31   | 71.44    |   52.5  | <a href="https://drive.google.com/file/d/1E8MQf3pfOyjbVvxZeBLdYBFUiJA6bdgr/view">weights</a> |
 | **BPJ**   |     -     |   -  | -      |   -   | -    |   50.1  |<a href="https://github.com/hnuzhy/BPJDet">weights</a> |
 | **PBADET**   |     -     |   -  | -      |   -   | -    |   50.8  | <a href="">none</a> |
-| **OURs**  |     35.25     |   30.38  | 38.12       |   52.47   | 55.75    |   42.9  | <a href="">weights</a> |
+| **OURs**  |     35.25     |   30.38  | 38.12       |   52.47   | 55.75    |   42.9  | <a href="https://huggingface.co/MTSAIR/PairDETR">weights</a> |
 ## Useful links
 ### Papers
 * <a href='https://arxiv.org/abs/2005.12872'>End-to-End Object Detection with Transformers</a>
