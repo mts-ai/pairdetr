@@ -4,9 +4,9 @@ This repository contains the official implementation of PairDETR, a method for J
 ## Getting started
 ### Installation:
 For setting up the environment, we highly recommend using Docker images to ensure reproducibility and avoid any dependency issues. For our experiments, we used the Docker image 
-```
-skypirate91/minigpt4:0.4
-```
+
+<a href="https://hub.docker.com/r/skypirate91/minigpt4/tags">skypirate91/minigpt4:0.4</a>
+
 You can also use the provided requirements file to set up your personal environment.
 ```
 pip install -r requirements.txt
